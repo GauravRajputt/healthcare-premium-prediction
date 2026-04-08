@@ -41,7 +41,7 @@ Dataset contains **50,000 records** with features like:
 - Medical History, Insurance Plan  
 
 ### 🔥 Correlation Heatmap
-![Heatmap](images/heatmap.png)
+![Heatmap](images/correlation_heatmap.png)
 
 ### 📈 Feature Importance
 ![Feature Importance](images/feature_importance.png)
