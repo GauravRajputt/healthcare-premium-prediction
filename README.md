@@ -17,11 +17,28 @@ Key insight discovered during analysis: **young customers (age ≤ 25) behave di
 
 ## 📊 Dataset
 
-The dataset (`premiums.xlsx`) contains **50,000 records** with multiple features like age, income, BMI, smoking status, and medical history used to predict insurance premiums.
+Dataset contains **50,000 records** with features like:
+- Age, Gender, Region  
+- BMI Category, Smoking Status  
+- Income, Employment  
+- Medical History  
+- Insurance Plan  
+
+🎯 Target: **Annual_Premium_Amount**
 
 ---
 
 ## 📊 Exploratory Data Analysis
+
+## Multi-Feature Distribution Plot
+
+![Feature Distribution](images/distribution_analysis.png)
+
+📌 This visualization shows the percentage distribution of key categorical features:
+- Gender, Region, Marital Status  
+- BMI Category, Smoking Status  
+- Employment, Income Level  
+- Medical History, Insurance Plan  
 
 ### 🔥 Correlation Heatmap
 ![Heatmap](images/heatmap.png)
@@ -29,8 +46,6 @@ The dataset (`premiums.xlsx`) contains **50,000 records** with multiple features
 ### 📈 Feature Importance
 ![Feature Importance](images/feature_importance.png)
 
-### 📉 Data Distribution
-![Distribution](images/distribution.png)
 
 ---
 
@@ -55,7 +70,7 @@ Models evaluated:
 - **Linear Regression**
 - **Ridge Regression**
 - **Lasso Regression**
-- **Random Forest Regressor**
+- **XGBoost**
 
 ---
 
@@ -89,8 +104,8 @@ An interactive **Health Insurance Cost Predictor** app built using **Streamlit**
 
 ## 📈 Results
 
-- Segmented modelling improved accuracy  
-- Random Forest outperformed linear models  
+- Segmented modeling improved accuracy  
+- XGBoost outperformed all models  
 - Better predictions for young customers  
 - Reduced error using feature engineering  
 
@@ -98,8 +113,6 @@ An interactive **Health Insurance Cost Predictor** app built using **Streamlit**
 
 ## 🚀 Future Improvements
 
-- Deploy Streamlit app online  
-- Add more advanced models (XGBoost, LightGBM)  
 - Improve UI/UX  
 - Add API integration  
 
