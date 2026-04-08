@@ -2,7 +2,7 @@
 
 A machine learning project that predicts annual health insurance premium amounts based on customer demographics, lifestyle factors, and medical history. Includes an interactive web application for real-time predictions.
 
-![App Screenshot](images/app_screenshot.png)
+![App Screenshot](images/app_ui.png)
 
 ---
 
