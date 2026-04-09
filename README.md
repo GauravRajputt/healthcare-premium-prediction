@@ -119,5 +119,5 @@ An interactive **Health Insurance Cost Predictor** app built using **Streamlit**
 
 ## 👤 Author
 
-**Your Name**  
+  
 **Gaurav Rajput**
