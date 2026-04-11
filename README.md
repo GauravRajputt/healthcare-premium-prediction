@@ -6,7 +6,7 @@ A machine learning project that predicts annual health insurance premium amounts
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overvie
 
 Insurance companies rely on accurate premium pricing to remain profitable while staying competitive. This project builds a regression-based ML pipeline that predicts the **Annual Premium Amount** for health insurance customers in India. 
 
